@@ -1,0 +1,123 @@
+body{
+	background-color: black;
+	margin: 0;
+}
+
+@font-face{
+    font-family: 'union';
+    src: url('Union-Regular.otf') format('otf'), }
+
+    @font-face{
+    font-family: 'union-italic';
+    src: url('Union-Italic.otf') format('otf'), }
+
+
+h1{
+	font-family: 'union';
+	font-weight: normal;
+	color: white;
+	font-size: 3.5em;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'union';
+	font-weight: normal;
+	color: white;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+
+li {
+	font-family: 'union';
+	font-weight: normal;
+	color: white;
+	font-size: 3.5em;
+	list-style: none;
+}
+#menu {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+}
+
+#image {
+ width: 100vw;
+ height: 100vh;
+ margin: 0;
+}
+
+.imgcover{
+	width: 50vw;
+	float: left;
+}
+
+
+.bottom{
+	margin-left: -50vw;
+	opacity: 0;
+}
+
+.top:hover {
+	opacity: 0;
+}
+.bottom:hover{
+	opacity: 1;
+}
+
+.info {
+	width: 40%;
+	margin-left: 50%;
+	float: none;
+	padding-top: 2%;
+}
+
+iframe{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+}
+
+.parag{
+	margin-top: 15%;
+	width: 65%;
+	margin-left: 5%;}
+
+.video {
+	width: 100vw;
+	position: fixed;
+	z-index: 2;
+}
+
+.text {
+	z-index: 3;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.this {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 45%;
+}
+
+#back {
+	width: 2%;
+	position: absolute;
+	top: 2.5%;
+	left: 2.5%;
+	z-index: 10;
+}
+
+#pdf {
+	width: 2%;
+	position: absolute;
+	top: 2.5%;
+	right: 4%;
+	z-index: 10;
+}
+
