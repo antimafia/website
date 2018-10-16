@@ -138,7 +138,10 @@ iframe{
 	margin-top: 0;
 
 }
-  	.imgcover{
+.imgcover{
+	width: 0;
+}
+  	.top{
 	opacity: 0;
 }
 
