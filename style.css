@@ -36,12 +36,7 @@ li {
 	font-size: 3.5em;
 	list-style: none;
 }
-#menu {
-	float: left;
-	width: 100%;
-	height: 100%;
-	margin-top: 1%;
-}
+
 
 #image {
  width: 100vw;
@@ -139,9 +134,14 @@ iframe{
   	.imgcover{
 	width: 100vw;
 }
-.parag{
-	width: 65%;
-	margin-left: 5%;}
+
+#after {
+	width: 80vw;
+	margin: 0 auto;
+	font-size: 1.4em;
+	letter-spacing: -0.03em;
+	padding-bottom: 35%;
+}
 
 h1{
 	font-family: 'union', sans-serif;
