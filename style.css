@@ -133,6 +133,7 @@ iframe{
   and (-webkit-min-device-pixel-ratio: 2) { 
   	.imgcover{
 	width: 100vw;
+	margin-top: 0%;
 }
 
 #after {
