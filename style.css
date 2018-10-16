@@ -135,14 +135,9 @@ iframe{
   	
 .imgcover{
 	width: 0;
+	float: none;
 }
 
-  	.bottom{
-	opacity: 1;
-}
-  	.bottom{
-	opacity: 0;
-}
 
 #after {
 	width: 80vw;
