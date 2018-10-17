@@ -134,7 +134,7 @@ iframe{
 
   	
 .imgcover{
-	width: 0;
+	width: 100vw;
 	float: none;
 }
 
