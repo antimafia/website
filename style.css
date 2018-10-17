@@ -140,6 +140,8 @@ iframe{
 
 .bottom{
 	margin-left: 0;
+	width: 0;
+	height: 0;
 	opacity: 0;
 }
 
