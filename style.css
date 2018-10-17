@@ -132,7 +132,12 @@ iframe{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-  	
+  	#image {
+ width: 100vw;
+ height: auto;
+ margin: 0;
+ margin-bottom: 5%;
+}
 .imgcover{
 	width: 100vw;
 	float: none;
@@ -150,11 +155,11 @@ iframe{
 }
 
 #after {
-	width: 80vw;
+	width: 90vw;
 	margin: 0 auto;
 	font-size: 1.4em;
 	letter-spacing: -0.03em;
-	padding-top: 20%;
+	margin-top: 5%;
 }
 
 h1{
