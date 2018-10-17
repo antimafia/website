@@ -193,5 +193,19 @@ li {
 	margin-top: 90vh;
 
 }
+#back {
+	width: 4%;
+	position: absolute;
+	top: 2.5%;
+	left: 4%;
+	z-index: 10;
+}
 
+#pdf {
+	width: 4%;
+	position: absolute;
+	top: 2.5%;
+	right: 8%;
+	z-index: 10;
+}
 }
