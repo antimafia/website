@@ -138,6 +138,10 @@ iframe{
 	float: none;
 }
 
+.bottom{
+	margin-left: 0;
+	opacity: 0;
+}
 
 #after {
 	width: 80vw;
