@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinecircolo</title>
+
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript">
+
+	var random_images_array = ["img/booklet01.jpg", "img/couch.jpg", "img/ivotv.jpg", "img/gomorraposter.jpg", "img/booklet02.jpg", "img/gomorratv.jpg", "img/goofellasposter.jpg", "img/uccidetv.jpg", "img/uccide.jpg"];
+
+	function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="menu">
+<ul>
+	<li> <span class="lin"> <a href="index.html">  antimafia.club </a> <img src="circle.png" class="cerc"> </span></li>
+	<li > <a href="about.html" >ABOUT</a></li>
+	<li style="width: 180px;" > <a href="film.html">FILM</a></li>
+	<li > <a href="search.html">SEARCH</a> </li>
+</ul>
+	
+</div>
+<div class="main"> 
+<script type="text/javascript">getRandomImage(random_images_array);</script>
+
+<div id="after">
+	<p> A cinecircolo is a place where people 
+can meet, watch movies and afterwards have a free discussion. Historically this 
+kind of place was created by the Church.
+During the ‘60s the Church was responsible for deciding what type of movie could go to festivals like Venice 
+and Cannes, and which films needed to be censored. The creation of these places helped facilitate discussion between audience and director and allowed audiences to view the movie without censorship.<sup>1</sup>  </br>
+</br> During the month of November 2018, the Atrium, 1156 Chapel Street<sup> 2</sup> was converted to host a cinecircolo every Thursday with the subject of the Mafia. The movies selected were: Il Divo by Paolo Sorrentino, La Mafia Uccide solo d’Estate by Pif, Goodfellas by Martine Scorsese and Gomorra by Matteo Garrone. </br>
+</div>
+
+<div class="note">
+<p class="small"> 	1. from 'Sour Cornelia', in the Videomobile at Manifesta12 in Palermo 2018 </p>
+<p class="small" style="padding-top: 5% !important;"> 	2. Yale School of Art in New Haven </p>
+
+</div>
+</div>
+</body>
+</html>
