@@ -1,0 +1,139 @@
+body{
+	background-image: url('background.jpg');
+	margin: 0;
+}
+
+#about{
+	background-image: url('background_about.jpg');
+	margin: 0;
+}
+
+#film{
+	background-image: url('background_film.jpg');
+	margin: 0;
+}
+
+#search{
+	background-image: url('background_search.jpg');
+	margin: 0;
+}
+@font-face{
+    font-family: 'union';
+    src: url('Union-Regular.otf') format('otf'), }
+
+    @font-face{
+    font-family: 'union-italic';
+    src: url('Union-Italic.otf') format('otf'), }
+
+
+h1{
+	font-family: 'union', sans-serif;
+	font-weight: normal;
+	color: white;
+	font-size: 3.5em;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'union', sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	color: white;
+	font-size: 1.8em;
+	text-decoration: none;
+	letter-spacing: -0.02em;
+	    text-rendering: geometricPrecision !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+sup{
+	font-size: 0.6em;
+}
+
+.cerc{
+	width: 60%;
+	margin: 0 auto;
+	float: left;
+	position: relative;
+	top: -45px;
+	left: 20%;
+}
+
+li {
+	font-family: 'union', sans-serif;
+	font-weight: normal;
+	color: white;
+	font-size: 2em;
+	width: 15%;
+	list-style: none;
+	text-align: left;
+	float: left;
+	text-align: center;
+		padding-left: -20%;
+		    text-rendering: geometricPrecision !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menu{
+	position: fixed;
+	width: 100vw;
+	margin-left: 1%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.main {
+	width: 100vw;
+}
+
+#after {
+	width: 65vw;
+	padding-top: 5%;
+	font-size: 1.1em;
+	margin-left: 4.5%;
+	float: left;
+}
+#after2 {
+	width: 68vw;
+	padding-top: 5%;
+	font-size: 1.1em;
+	margin-left: 4.5%;
+	float: left;
+}
+.note{
+	width: 21vw;
+	margin-top: 15%;
+	margin-left: 3%;
+	font-size: 1.1em;
+	float: left;
+}
+
+.small {
+	font-family: serif;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+	letter-spacing: 0.01em;
+}
+
+.link {
+	float:none;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
